@@ -1,0 +1,14 @@
+#conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 350px;
+    max-height: 700px;
+    /* height: 350px; */
+    width: 100%;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    
+}
+
