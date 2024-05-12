@@ -3,12 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 350px;
-    max-height: 700px;
-    /* height: 350px; */
+    /* min-height: 350px;
+    max-height: 700px; */
     width: 100%;
-    border: 2px solid black;
-    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    justify-content: center;
     
 }
 

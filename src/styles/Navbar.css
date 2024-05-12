@@ -25,19 +25,27 @@
 .from{
     display: flex; 
     margin-left: 200px;
+    height: 40px;
     
 }
 .from> input{
     width: 350px;
     padding-left: 10px;
+    outline: none;
+    border: none;
 }
 .from >button{
     width: 40px;
+    background-color: tomato;
+    color: yellow;
+    outline: none;
+    border: none;
 }
 .cart{
     display: flex;
     margin-left: 260px;
     font-size: 25px;
+    cursor: pointer;
 }
 .cart>p{
     margin-left: 10px;
@@ -53,6 +61,83 @@
     margin-bottom: 5px;
     margin-left: 30px;
 }
+.maining{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.carted{
+    height: 210px;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.increase{
+    border: 0.5px solid rgb(186, 98, 98);
+}
+.itmes{
+    margin: 2px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid transparent;
+}
+.itmes>img{
+    height: 100%;
+    width: 100px;
+}
+.heading{
+    height: 100%;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.modultitle{
+    font-size: 25px;
+}
+.amount{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount>strike{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer>button{
+    outline: none;
+    border: none;
+    background: linear-gradient(135deg,rgb(73, 73, 150),rgb(60, 60, 152));
+    color: white;
+    border-radius: 2%;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount>pre{
+    margin-top: 10px;
+    padding-left: 10px;
+}
 
 

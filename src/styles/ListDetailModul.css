@@ -1,0 +1,39 @@
+.Container-fluid{
+    height: 300px;
+    width: 500px;
+    border: 0.6px solid black;
+    position:fixed;
+    left: 350px;
+    bottom: 40px;
+    background-color: wheat;
+    padding: 2px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: yellowgreen;
+    border: 0.5 solid transparent;
+    overflow: hidden;
+}
+.header>button{
+    font-size: 39px;
+    font-weight:bold;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+}
+
+/* .body>.imgConatiner{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+.body>.imgConatiner>img{
+    height: 100%;
+    width: 100%;border: 2px solid black;
+} */
