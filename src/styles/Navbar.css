@@ -1,67 +1,90 @@
-.navbar{
-/*    
-    height: 50px; */
-    height: 70px;
+
+
+
+ .navbar{
+    min-height: 10px;
     width: 100%;
     background-color: rgb(59, 46, 46);
-    border: 2px solid black;
+
+    border: 1px solid transparent;
     color: white;
 }
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navbar-toggler{
+    background-color: white;
 }
 
 .logo{
     display: flex;
     font-size: 25px;
-    margin-left: 5px;
+    color: white;
 }
 .logo>i{
     margin-left: 10px;
     font-size: 30px;
 }
-.from{
-    display: flex; 
-    margin-left: 200px;
-    height: 40px;
-    
+.navbar-brand:hover{
+    cursor:alias;
+    background-color:rgb(59, 46, 46) ;
 }
-.from> input{
-    width: 350px;
-    padding-left: 10px;
-    outline: none;
-    border: none;
-}
-.from >button{
-    width: 40px;
-    background-color: tomato;
-    color: yellow;
-    outline: none;
-    border: none;
-}
-.cart{
+
+
+ .collapse{
     display: flex;
-    margin-left: 260px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ form>.btn{
+    color: rgb(28, 28, 24);
+    background-color: yellowgreen;
+ }
+ @media (min-width: 990px){
+    .navbar{
+        height: 70px;
+    }
+ }
+ 
+ @media (max-width: 990px) {
+    form{
+        padding: 20px;
+    }
+    .collapse{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        font-size: 20px;
+        color: white;
+    }
+    .logo>i{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    
+   
+ }
+ .cart{
+    display: flex;
+    /* margin-left: 260px; */
     font-size: 25px;
     cursor: pointer;
+
 }
 .cart>p{
     margin-left: 10px;
+    font-size: 30px;
 }
 .cart>p>sup{
     background-color: red;
-    /* height: 10px;
-    width: 10px; */
     border-radius: 40px;
 }
 .cart>i{
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-left: 30px;
 }
-.maining{
+ .maining{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,6 +161,4 @@
 .amount>pre{
     margin-top: 10px;
     padding-left: 10px;
-}
-
-
+} 

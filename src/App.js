@@ -31,10 +31,7 @@ function App() {
       
 
     </div>
-    // <div>
-    //   <List/>
-    //   <Products/>
-    // </div>
+   
   );
 }
 

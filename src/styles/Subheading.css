@@ -24,6 +24,31 @@ a:hover{
     border-radius: 5px;
     padding: 20px;
 }
+@media (max-width: 650px){
+    header{
+        height: 320px;
+        width: 100%;
+        border: 1px solid transparent;
+        border-bottom: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+    a{
+        text-decoration: none;
+        /* margin-left: 0px;
+        padding: 0px; */
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        height: 320px;
+        width: 100%;
+        background-color: yellowgreen;
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* .home{
     background-color: yellowgreen;
     height: 40px;

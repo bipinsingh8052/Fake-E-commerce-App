@@ -8,3 +8,16 @@
     align-items: center;
     font-size: 30px;
 }
+@media (max-width: 990px){
+    .footermain{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(37, 28, 28);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+
+    }
+}

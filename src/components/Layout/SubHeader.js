@@ -3,7 +3,7 @@ import '../../styles/Subheading.css'
 export default function SubHeader() {
   return (
     <header>
-        <a href="/" className='home'>Home</a>
+        <a href="SubHeader.js" className='home'>Home</a>
         <a href="/">Category 1</a>
         <a href="/">Category 2</a>
         <a href="/">Category 3</a>
